@@ -1,11 +1,12 @@
 package classes;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Folder extends Object{
 
-    private List<File> files;
-    private List<Folder> folders;
+    private List<File> files = new ArrayList<>();
+    private List<Folder> folders = new ArrayList<>();
 
     @Override
     public void get_info() {
@@ -16,7 +17,12 @@ public class Folder extends Object{
         showComponents();
     }
 
-    private void showComponents(){
+    public void showComponents(){
 
     }
+
+    public void makeNew(){
+
+    }
+
 }

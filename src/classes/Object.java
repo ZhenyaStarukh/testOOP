@@ -34,4 +34,12 @@ public abstract class Object {
     public String getLocation() {
         return location;
     }
+
+    public ImageIcon getIcon() {
+        return icon;
+    }
+
+    public void setIcon(ImageIcon icon) {
+        this.icon = icon;
+    }
 }
